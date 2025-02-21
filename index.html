@@ -6,7 +6,6 @@
         <link rel="icon" href="" type="image/x-icon" />
         <link rel="stylesheet" href=".\assests\css\style.css" />
         <title>Home</title>
-
         <!-- box icon -->
         <link
             href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -73,7 +72,7 @@
 
                     <div class="profession" style="--i: 1">
                         <i class="bx bxs-game"></i>
-                        <h3>App Developer</h3>
+                        <h3>Mobile Application Developer</h3>
                     </div>
 
                     <div class="circle"></div>
@@ -97,7 +96,7 @@
                 <h2 class="heading">
                     Skills & Background <span>Knowledge</span>
                 </h2>
-                <h3>Hi, I am there to help you</h3>
+                <h3>Hi, I seeking a job/h3>
                 <p>I am student from VNU-HCM International University</p>
                 <div class="table-container">
                     <table>
@@ -164,28 +163,16 @@
         </section>
 
         <!-- PORTFOLIO/EXPERIENCE SECTION -->
-        <section class="portfolio" id="portfolio">
-            <div class="heading">Experience</div>
+        <section class="services" id="portfolio">
+            <h2 class="heading">My <span>Experience</span></h2>
 
-            <div class="academic-container experience-container">
-                <div class="portfolio-container">
-                    <div class="portfolio-box">
-                        <img
-                            src="assests/images/project.jpg"
-                            alt="project.jpg"
-                        />
-
-                        <div class="portfolio-layer">
-                            <h4>Software Engineering Intern</h4>
-                            <p>JULY 2024 - JAN 2025</p>
-                            <div class="label-type">
-                                Bosch Global Software Technology
-                            </div>
-                            <button class="btn js-modal-open-project project-1">
-                                More Details
-                            </button>
-                        </div>
-                    </div>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Software Engineering Intern</h3>
+                    <p class="school-year">JULY 2024 - JAN 2025</p>
+                    <p class="text">Bosch Global Software Technology</p>
+                    <button class="btn js-experience-button">Read More</button>
                 </div>
             </div>
         </section>
@@ -375,6 +362,35 @@
                 <button class="btn js-close">OK</button>
             </div>
         </div>
+
+        <!-- experince modal -->
+        <div class="modal js-modal-exprience">
+            <div class="modal-container js-modal-container-exprience">
+                <div class="js-modal-close modal-close js-close">
+                    <i class="bx bxs-x-circle"></i>
+                </div>
+                <p class="university centered">
+                    Bosch Global Software Technology
+                </p>
+                <h2 class="department centered">
+                    Software Engineering Intern
+                </h2>
+                <p class="school-year centered">JUL 2024 — JAN 2025</p>
+                <p class="subject centered">
+                    Subject: Intern software engineer in developing internal cutting-edge approval workflow solution called WorkOn with over
+                    800 applications and about 400,000 users.
+                </p>
+                <p class="gpa centered">
+                    Contribution: Delivered multiple applications on Product system using Javascript with occasional Groovy with Jira core
+                    scripting using Java for advanced functionalities. Collaborated closely with testing teams and customers.
+                </p>
+                <p class="learning centered">
+                    Learning: Apply cleaning coding, document reading skills, Agile and Scrum process, and working in a professional environment.
+                </p>
+                <button class="btn js-close-experience">OK</button>
+            </div>
+        </div>
+
 
         <!-- project modal -->
         <div class="modal-project js-modal-project project-1">
