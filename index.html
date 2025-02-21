@@ -1,295 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="" type="image/x-icon" />
-    <link rel="stylesheet" href=".\assests\css\style.css">
-    <title>Home</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="" type="image/x-icon" />
+        <link rel="stylesheet" href=".\assests\css\style.css" />
+        <title>Home</title>
 
-    <!-- box icon -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <!-- HEADER DESIGN -->
-    <header class="header">
-        <a href="#" class="logo">Portfolio.</a>
+        <!-- box icon -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- HEADER DESIGN -->
+        <header class="header">
+            <a href="#" class="logo">Portfolio.</a>
 
-        <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Education</a>
-            <a href="#portfolio">Experience</a>
-            <a href="#contact">Contact</a>
-        </nav>
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Education</a>
+                <a href="#portfolio">Experience</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-        <div class="bx bx-moon" id="darkMode-icon"></div>
+            <div class="bx bx-moon" id="darkMode-icon"></div>
 
-        <div class="bx bx-menu" id="menu-icon"><box-icon name='menu' ></box-icon></div>
-    </header>
-
-    <!-- HOME SECTION -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, I am</h3>
-            <h1>Hoang Gia Huy</h1>
-            <p>University Student in Computer Science,</p>
-            <p>VNU-HCM International University</p>
-
-            <div class="social-media">
-                <a href="https://www.facebook.com/profile.php?id=100009014052461"><i class='bx bxl-facebook'></i></a>
-                <a href="https://github.com/Hoanghuygia"><i class='bx bxl-github'></i></a>
-                <!-- <a href="#"><i class='bx bxl-instagram-alt' ></i></a> -->
-                <a href="https://www.linkedin.com/in/hoang-huy-087966304/"><i class='bx bxl-linkedin'></i></a>
+            <div class="bx bx-menu" id="menu-icon">
+                <box-icon name="menu"></box-icon>
             </div>
+        </header>
 
-            <a href="assests\others\HGH_CV.pdf" download="HGH_CV.pdf" class="btn">Download my CV</a>
-        </div>
+        <!-- HOME SECTION -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, I am</h3>
+                <h1>Hoang Gia Huy</h1>
+                <p>University Student in Computer Science,</p>
+                <p>VNU-HCM International University</p>
 
-        <div class="profession-container">
-            <div class="profession-box">
-
-                <div class="profession" style="--i:0;">
-                    <i class='bx bx-code-alt' ></i>
-                    <h3>Web Developer</h3>
-                </div>
-                
-                <div class="profession" style="--i:1;">
-                    <i class='bx bxs-game' ></i>
-                    <h3>App Developer</h3>
+                <div class="social-media">
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100009014052461"
+                        ><i class="bx bxl-facebook"></i
+                    ></a>
+                    <a href="https://github.com/Hoanghuygia"
+                        ><i class="bx bxl-github"></i
+                    ></a>
+                    <!-- <a href="#"><i class='bx bxl-instagram-alt' ></i></a> -->
+                    <a href="https://www.linkedin.com/in/hoang-huy-087966304/"
+                        ><i class="bx bxl-linkedin"></i
+                    ></a>
                 </div>
 
-                <div class="circle"></div>
+                <a
+                    href="assests\others\HoangGiaHuy_CV_25.pdf"
+                    download="HGH_CV.pdf"
+                    class="btn"
+                    >Download my CV</a
+                >
             </div>
 
-            <div class="overlay"></div>
+            <div class="profession-container">
+                <div class="profession-box">
+                    <div class="profession" style="--i: 0">
+                        <i class="bx bx-code-alt"></i>
+                        <h3>Web Developer</h3>
+                    </div>
 
-        </div>
+                    <div class="profession" style="--i: 1">
+                        <i class="bx bxs-game"></i>
+                        <h3>App Developer</h3>
+                    </div>
 
-        <!-- <div class="home-img">
+                    <div class="circle"></div>
+                </div>
+
+                <div class="overlay"></div>
+            </div>
+
+            <!-- <div class="home-img">
             <img src="assests/images/home.png" alt="home.png">
         </div> -->
-    </section>
+        </section>
 
-    <!-- ABOUT SECTION  -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="" alt="">
-        </div>
-
-        <div class="about-content">
-            <h2 class="heading">Skills & Background <span>Knowledge</span></h2>
-            <h3>Hi, I am there to help you</h3>
-            <p>I am student from VNU-HCM International University</p>
-            <div class="table-container">
-                <table>
-                    <tr>
-                        <td class="column1">Programing</td>
-                        <td class="column2">Java, Javascript, C#, C</td>
-                    </tr>
-                    <tr>
-                        <td class="column1">Framework</td>
-                        <td class="column2">Nodejs, Reactjs, Expressjs</td>
-                    </tr>
-                    <tr>
-                        <td class="column1">Database</td>
-                        <td class="column2">SQL(MySQL, Postgres), NoSQL(MongoDB)</td>
-                    </tr>
-                    <tr>
-                        <td class="column1">API development</td>
-                        <td class="column2">RESTful API design and implementation</td>
-                    </tr>
-                    <tr>
-                        <td class="column1">Tool</td>
-                        <td class="column2">Docker, Unity</td>
-                    </tr>
-                    <tr>
-                        <td class="column1">Language</td>
-                        <td class="column2">English</td>
-                    </tr>
-                </table>
+        <!-- ABOUT SECTION  -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="" alt="" />
             </div>
-            
-            <a href="#portfolio" class="btn">Read More</a>
-        </div>
-    </section>
 
-    <!-- EDUCATION SECTION -->
-    <section class="services" id="services">
-        <h2 class="heading">My <span>Education</span></h2>
-
-        <div class="services-container">
-            <div class="services-box">
-                 <i class='bx bx-code-alt' ></i>
-                <h3>Bachelor of Science in Computer Science</h3>
-                <p class="school-year">2021-2025</p>
-                <p class="text">(Expected)</p>
-                <button class="btn js-education-button">Read More</button>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- PORTFOLIO/EXPERIENCE SECTION -->
-    <section class="portfolio" id="portfolio">
-        <div class="heading">Experience</div>
-
-        <div class="academic-container experience-container">
-            <h3>Academic</h3>
-            <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="assests/images/project.jpg" alt="project.jpg">
-
-                <div class="portfolio-layer">
-                    <h4>Automatic Parking System</h4>
-                    <p>MAR 2024 - NOW </p>
-                    <div class="label-type">Personal</div>
-                    <button class="btn js-modal-open-project project-1">More Details</button>
+            <div class="about-content">
+                <h2 class="heading">
+                    Skills & Background <span>Knowledge</span>
+                </h2>
+                <h3>Hi, I am there to help you</h3>
+                <p>I am student from VNU-HCM International University</p>
+                <div class="table-container">
+                    <table>
+                        <tr>
+                            <td class="column1">Programing</td>
+                            <td class="column2">
+                                Javascript, Python, Java, Kotlin
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="column1">Framework</td>
+                            <td class="column2">
+                                Nodejs, Reactjs, Expressjs, FastAPI, Jetpack
+                                Compose
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="column1">Database</td>
+                            <td class="column2">
+                                SQL(MySQL, Postgres), NoSQL(MongoDB),
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="column1">Fetch API and toolkits</td>
+                            <td class="column2">
+                                Redux, JWT, Socket.io, TailWindCSS, Vite,
+                                Rettrofit
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="column1">Tool</td>
+                            <td class="column2">
+                                Docker, Unity, Google OAuth, Google API, Jira
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="column1">Soft Skills</td>
+                            <td class="column2">
+                                English, Agile and Scrum development, Time
+                                management, Adaptability, Attention to detail,
+                                Creativity
+                            </td>
+                        </tr>
+                    </table>
                 </div>
+
+                <a href="#portfolio" class="btn">Read More</a>
             </div>
+        </section>
 
-            <div class="portfolio-box">
-                <img src="assests/images/project.jpg" alt="project.jpg">
+        <!-- EDUCATION SECTION -->
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Education</span></h2>
 
-                <div class="portfolio-layer">
-                    <h4>Candy Escape</h4>
-                    <p>NOV 2023 – JAN 2024 </p>
-                    <div class="label-type">project DSA -solo</div>
-                    <button class="btn js-modal-open-project project-2">More Details</button>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="assests/images/project.jpg" alt="project.jpg">
-
-                <div class="portfolio-layer">
-                    <h4>Hero Adventure</h4>
-                    <p>APR 2023 – JUN 2023</p>
-                    <div class="label-type">Project OOP - group</div>
-                    <button class="btn js-modal-open-project project-3">More Details</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="extra-activity experience-container">
-            <h3>Extra-activity</h3>
             <div class="services-container">
                 <div class="services-box">
-                    <i class='bx bx-code-alt' ></i>
-                    <h3>SEP 2022 – MAY 2023</h3>
-                    <p class="school-year">Teacher Assistant for Dr.Tran Nguyen Lan</p>
-                    <p class="text">Subject: Physics 3 and Physics 4 <br>
-                        VNU-HCM International University</p>
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p class="school-year">2021-2025</p>
+                    <p class="text">(Expected)</p>
                     <button class="btn js-education-button">Read More</button>
                 </div>
             </div>
-        </div>
-        </div>
-        
-    </section>
+        </section>
 
-    <!-- CONTACT SECTION -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!!</span></h2>
+        <!-- PORTFOLIO/EXPERIENCE SECTION -->
+        <section class="portfolio" id="portfolio">
+            <div class="heading">Experience</div>
 
-        <form action="#" method="post">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="number" placeholder="Phone Numebr">
-                <input type="text" placeholder="Email Subject">
+            <div class="academic-container experience-container">
+                <div class="portfolio-container">
+                    <div class="portfolio-box">
+                        <img
+                            src="assests/images/project.jpg"
+                            alt="project.jpg"
+                        />
+
+                        <div class="portfolio-layer">
+                            <h4>Software Engineering Intern</h4>
+                            <p>JULY 2024 - JAN 2025</p>
+                            <div class="label-type">
+                                Bosch Global Software Technology
+                            </div>
+                            <button class="btn js-modal-open-project project-1">
+                                More Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-           
-        </form>
-    </section> 
+        </section>
 
-    <!-- FOOTER SECTION -->
-    <footter class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by Codehal | All Rights Reserved</p>
-            <p>modified by HoangGiaHuy</p>
-        </div>
+        <!-- PORTFOLIO/PROJECT SECTION -->
+        <section class="portfolio" id="project">
+            <div class="heading">Project & Activity</div>
 
-        <div class="footer-iconTop">
-            <a href="#home"><box-icon name='up-arrow-alt'></box-icon></a></div>
-    </footter>
+            <div class="academic-container experience-container">
+                <h3>Projects</h3>
+                <div class="portfolio-container">
+                    <div class="portfolio-box">
+                        <img
+                            src="assests/images/project.jpg"
+                            alt="project.jpg"
+                        />
 
-    <!-- MODAL -->
-    <!-- education modal -->
-    <div class="modal js-modal">
-        <div class="modal-container js-modal-container">
-                <div class="js-modal-close modal-close js-close"><i class='bx bxs-x-circle' ></i></div>
-                <p class="university centered">VNU-HCM International University</p>
-                <h2 class="department centered">Bachelor of Science in Computer Science</h2>
-                <p class="school-year centered">2021-2025 (Expected)</p>
-                <p class="subject centered">Subject:  Principle of Database Management, Data Structure
-                        and Algorithms, Object-Oriented Programming, Web
-                        Application Development, Object-Oriented Analysis and
-                        Design.
+                        <div class="portfolio-layer">
+                            <h4>IELTS Learning Application</h4>
+                            <p>OCT 2024 — JAN 2025</p>
+                            <div class="label-type">Personal</div>
+                            <button class="btn js-modal-open-project project-4">
+                                More Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img
+                            src="assests/images/project.jpg"
+                            alt="project.jpg"
+                        />
+
+                        <div class="portfolio-layer">
+                            <h4>Social Media Site</h4>
+                            <p>APR 2024 — JUN 2024</p>
+                            <div class="label-type">Personal</div>
+                            <button class="btn js-modal-open-project project-5">
+                                More Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img
+                            src="assests/images/project.jpg"
+                            alt="project.jpg"
+                        />
+
+                        <div class="portfolio-layer">
+                            <h4>Traffic Signal Control Website Intergrated with AI</h4>
+                            <p>JAN 2025 - NOW</p>
+                            <div class="label-type">Personal</div>
+                            <button class="btn js-modal-open-project project-6">
+                                More Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img
+                            src="assests/images/project.jpg"
+                            alt="project.jpg"
+                        />
+
+                        <div class="portfolio-layer">
+                            <h4>Automatic Parking System</h4>
+                            <p>MAR 2024 - NOW</p>
+                            <div class="label-type">Personal</div>
+                            <button class="btn js-modal-open-project project-1">
+                                More Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img
+                            src="assests/images/project.jpg"
+                            alt="project.jpg"
+                        />
+
+                        <div class="portfolio-layer">
+                            <h4>Candy Escape</h4>
+                            <p>NOV 2023 – JAN 2024</p>
+                            <div class="label-type">project DSA -solo</div>
+                            <button class="btn js-modal-open-project project-2">
+                                More Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box">
+                        <img
+                            src="assests/images/project.jpg"
+                            alt="project.jpg"
+                        />
+
+                        <div class="portfolio-layer">
+                            <h4>Hero Adventure</h4>
+                            <p>APR 2023 – JUN 2023</p>
+                            <div class="label-type">Project OOP - group</div>
+                            <button class="btn js-modal-open-project project-3">
+                                More Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="extra-activity experience-container">
+                    <h3>Extra-activity</h3>
+                    <div class="services-container">
+                        <div class="services-box">
+                            <i class="bx bx-code-alt"></i>
+                            <h3>SEP 2022 – MAY 2023</h3>
+                            <p class="school-year">
+                                Teacher Assistant for Dr.Tran Nguyen Lan
+                            </p>
+                            <p class="text">
+                                Subject: Physics 3 and Physics 4 <br />
+                                VNU-HCM International University
+                            </p>
+                            <button class="btn js-education-button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!!</span></h2>
+
+            <form action="#" method="post">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" />
+                    <input type="number" placeholder="Phone Numebr" />
+                    <input type="text" placeholder="Email Subject" />
+                </div>
+                <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Message"
+                ></textarea>
+                <input type="submit" value="Send Message" class="btn" />
+            </form>
+        </section>
+
+        <!-- FOOTER SECTION -->
+        <footter class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Codehal | All Rights Reserved</p>
+                <p>modified by HoangGiaHuy</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><box-icon name="up-arrow-alt"></box-icon></a>
+            </div>
+        </footter>
+
+        <!-- MODAL -->
+        <!-- education modal -->
+        <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="js-modal-close modal-close js-close">
+                    <i class="bx bxs-x-circle"></i>
+                </div>
+                <p class="university centered">
+                    VNU-HCM International University
                 </p>
-                <p class="gpa centered">Current GPA: 3.4 – Degree classification: Very Good</p>
+                <h2 class="department centered">
+                    Bachelor of Science in Computer Science
+                </h2>
+                <p class="school-year centered">2021-2025 (Expected)</p>
+                <p class="subject centered">
+                    Subject: Principle of Database Management, Data Structure
+                    and Algorithms, Object-Oriented Programming, Web Application
+                    Development, Object-Oriented Analysis and Design.
+                </p>
+                <p class="gpa centered">
+                    Current GPA: 3.36 – Degree classification: Very Good
+                </p>
 
                 <button class="btn js-close">OK</button>
+            </div>
         </div>
-    </div>
 
-    <!-- project modal -->
-    <div class="modal-project js-modal-project project-1">
-        <div class="modal-container-project js-modal-container-project">
-                <div class="js-modal-close-project modal-close-project js-close-project project-1"><i class='bx bxs-x-circle' ></i></div>
+        <!-- project modal -->
+        <div class="modal-project js-modal-project project-1">
+            <div class="modal-container-project js-modal-container-project">
+                <div
+                    class="js-modal-close-project modal-close-project js-close-project project-1"
+                >
+                    <i class="bx bxs-x-circle"></i>
+                </div>
                 <p class="duration centered">MAR 2024 - NOW</p>
                 <h2 class="project-name centered">Automatic Parking System</h2>
                 <p class="project-type centered">Personal Project</p>
-                <p class="description centered"><span>Description:</span> following the <span>MVC (Model-View-Controller) architecture</span> pattern.
-Utilized DTO (Data Transfer Object) for data encapsulation, DAO (Data Access
-Object) classes for database interaction, and servlets for controllers to
-implement automatic parking system for user and guess.
+                <p class="description centered">
+                    <span>Description:</span> following the
+                    <span>MVC (Model-View-Controller) architecture</span>
+                    pattern. Utilized DTO (Data Transfer Object) for data
+                    encapsulation, DAO (Data Access Object) classes for database
+                    interaction, and servlets for controllers to implement
+                    automatic parking system for user and guess.
                 </p>
-                <p class="technique centered"><span>Technique:</span> MVC model, traditional java web</p>
+                <p class="technique centered">
+                    <span>Technique:</span> MVC model, traditional java web
+                </p>
 
                 <button class="btn js-close-project project-1">OK</button>
+            </div>
         </div>
-    </div>
 
-    <div class="modal-project js-modal-project project-2">
-        <div class="modal-container-project js-modal-container-project">
-                <div class="js-modal-close-project modal-close-project js-close-project project-2"><i class='bx bxs-x-circle' ></i></div>
+        <div class="modal-project js-modal-project project-2">
+            <div class="modal-container-project js-modal-container-project">
+                <div
+                    class="js-modal-close-project modal-close-project js-close-project project-2"
+                >
+                    <i class="bx bxs-x-circle"></i>
+                </div>
                 <p class="duration centered">NOV 2023 – JAN 2024</p>
                 <h2 class="project-name centered">Candy Escape game</h2>
                 <p class="project-type centered">project DSA – solo</p>
-                <p class="description centered"><span>Description:</span> A mobile game similar to Candy Crush using Unity to apply DSA
-                        theory to practice including <span>Stack, Queue, and LinkedList.</span>
-                        
+                <p class="description centered">
+                    <span>Description:</span> A mobile game similar to Candy
+                    Crush using Unity to apply DSA theory to practice including
+                    <span>Stack, Queue, and LinkedList.</span>
                 </p>
-                <p class="feature"><span>New feature:</span> Undo and Redo function, limited control Undo/Redo for each
-                        level.</p>
-                <p class="technique centered"><span>Techique:</span> Stack, Queue, and LinkedList.</p>
+                <p class="feature">
+                    <span>New feature:</span> Undo and Redo function, limited
+                    control Undo/Redo for each level.
+                </p>
+                <p class="technique centered">
+                    <span>Techique:</span> Stack, Queue, and LinkedList.
+                </p>
 
                 <button class="btn js-close-project project-2">OK</button>
+            </div>
         </div>
-    </div>
 
-    <div class="modal-project js-modal-project project-3">
-        <div class="modal-container-project js-modal-container-project">
-                <div class="js-modal-close-project modal-close-project js-close-project project-3"><i class='bx bxs-x-circle' ></i></div>
+        <div class="modal-project js-modal-project project-3">
+            <div class="modal-container-project js-modal-container-project">
+                <div
+                    class="js-modal-close-project modal-close-project js-close-project project-3"
+                >
+                    <i class="bx bxs-x-circle"></i>
+                </div>
                 <p class="duration centered">APR 2023 – JUN 2023</p>
                 <h2 class="project-name centered">Hero Adventure game</h2>
                 <p class="project-type centered">project OOP – group</p>
-                <p class="description centered"><span>Description:</span> A 2D game follows basic understanding of OOP course, applying
-<span>JavaFrame, data structure</span>, and other OOP knowledge.
+                <p class="description centered">
+                    <span>Description:</span> A 2D game follows basic
+                    understanding of OOP course, applying
+                    <span>JavaFrame, data structure</span>, and other OOP
+                    knowledge.
                 </p>
-                <p class="contribution"><span>Contribution:</span> Design and combine <span>Design patterns, SOLID principles</span> and
-develop game logic.</p>
-                <p class="technique centered"><span>Techique:</span>JavaFrame, Design Patterns, and SOLID principle</p>
+                <p class="contribution">
+                    <span>Contribution:</span> Design and combine
+                    <span>Design patterns, SOLID principles</span> and develop
+                    game logic.
+                </p>
+                <p class="technique centered">
+                    <span>Techique:</span>JavaFrame, Design Patterns, and SOLID
+                    principle
+                </p>
 
                 <button class="btn js-close-project project-3">OK</button>
+            </div>
         </div>
-    </div>
 
-    <!-- SCRIPT -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    
-    <script src="js/script.js"></script>
-</body>
+
+        <div class="modal-project js-modal-project project-4">
+            <div class="modal-container-project js-modal-container-project">
+                    <div
+                        class="js-modal-close-project modal-close-project js-close-project project-4"
+                    >
+                        <i class="bx bxs-x-circle"></i>
+                    </div>
+                    <p class="duration centered"></p>
+                    <h2 class="project-name centered">IELTS Learning Application</h2>
+                    <p class="project-type centered">Personal Project</p>
+                    <p class="description centered">
+                        <span>Description:</span> following the
+                        <span>MVVM(Model-View-ViewModel) clean architecture</span>
+                        pattern. A mobile appication that help user to learn English through variety practical examination with chatbot intergration.
+                    </p>
+                    <p class="technique centered">
+                        <span>Technique:</span> Jetpack Compose, Google OAuth Authentication, Google Gemini
+                    </p>
+
+                    <p class="resource centered">
+                        <span>Resource:</span> Github, Figma
+                    </p>
+
+                    <button class="btn js-close-project project-4">OK</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-project js-modal-project project-5">
+            <div class="modal-container-project js-modal-container-project">
+                    <div
+                        class="js-modal-close-project modal-close-project js-close-project project-5"
+                    >
+                        <i class="bx bxs-x-circle"></i>
+                    </div>
+                    <p class="duration centered"></p>
+                    <h2 class="project-name centered">Social Media Site</h2>
+                    <p class="project-type centered">Group Project</p>
+                    <p class="description centered">
+                        <span>Description:</span> A web application that combine the functionality of Facebook and Instagram with feature like post, like, chat, etc
+                    </p>
+                    <p class="technique centered">
+                        <span>Technique:</span> Nodejs, Expressjs, Reactjs, JWT, etc
+                    </p>
+
+                    <p class="resource centered">
+                        <span>Resource:</span> Github, Figma
+                    </p>
+
+                    <button class="btn js-close-project project-5">OK</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SCRIPT -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="js/script.js"></script>
+    </body>
 </html>
